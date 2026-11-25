@@ -68,7 +68,7 @@ def format_size(size_bytes: int) -> str:
 
 # --- 3. HALAMAN LOGIN & REGISTER ---
 def auth_page():
-    st.title("🔐 Selamat Datang di Image Compressor")
+    st.title("🔐 Selamat Datang di Image Compressor, Data Aman & Dilindungi")
     st.write("Silakan masuk atau daftar akun terlebih dahulu untuk mengakses dashboard kompresi.")
     
     tab_login, tab_register = st.tabs(["Login", "Daftar Akun"])
